@@ -70,7 +70,7 @@
                         <li class="list-group-item">{{{.}}}</li>
                         {{/languages}}
                       </ul>
-                      {{#/boolLanguages}}
+                      {{/boolLanguages}}
                       {{#boolSystems}}
                       <div class="systems">Systems Used</div>
                       <ul class="list-group">
