@@ -124,6 +124,20 @@ function render(resumeObject) {
                     }
                 }
             }
+            if (w.systems) {
+              if (w.systems[0]) {
+                if (w.systrems[0] != "") {
+                  w.boolSystems = true;
+                }
+              }
+            }
+            if (w.languages) {
+              if (w.languages[0]) {
+                if (w.languages[0] != "") {
+                  w.boolLanguages = true;
+                }
+              }
+            }
         });
     }
 
@@ -147,6 +161,20 @@ function render(resumeObject) {
                         w.boolHighlights = true;
                     }
                 }
+            }
+            if (w.systems) {
+              if (w.systems[0]) {
+                if (w.systems[0] != "") {
+                  w.boolSystems = true;
+                }
+              }
+            }
+            if (w.languages) {
+              if (w.languages[0]) {
+                if (w.languages[0] != "") {
+                  w.boolLanguages = true;
+                }
+              }
             }
         });
     }

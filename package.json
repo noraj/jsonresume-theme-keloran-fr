@@ -1,12 +1,12 @@
 {
-  "name": "jsonresume-theme-kendall",
-  "version": "0.1.18",
-  "description": "A JSON Resume theme built with bootstrap",
+  "name": "jsonresume-theme-keloran",
+  "version": "1.0.0",
+  "description": "A Fork of Kendall with tweaks",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "M. Adam Kendall",
+  "author": "Keloran",
   "license": "MIT",
   "dependencies": {
     "gravatar": "^1.0.6",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/linuxbozo/jsonresume-theme-kendall.git"
+    "url": "https://github.com/keloran/jsonresume-theme-keloran.git"
   },
   "keywords": [
     "json",
@@ -23,7 +23,7 @@
     "theme"
   ],
   "bugs": {
-    "url": "https://github.com/linuxbozo/jsonresume-theme-kendall/issues"
+    "url": "https://github.com/linuxbozo/jsonresume-theme-keloran/issues"
   },
-  "homepage": "https://github.com/linuxbozo/jsonresume-theme-kendall"
+  "homepage": "https://github.com/linuxbozo/jsonresume-theme-keloran"
 }

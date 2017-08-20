@@ -63,6 +63,22 @@
                     <div class="profession">{{position}}</div>
                     <div class="description">
                       {{{summary}}}
+                      {{#boolLanguages}}
+                      <div class="languges">Languges Used</div>
+                      <ul class="list-group">
+                        {{#languages}}
+                        <li class="list-group-item">{{{.}}}</li>
+                        {{/languages}}
+                      </ul>
+                      {{#/boolLanguages}}
+                      {{#boolSystems}}
+                      <div class="systems">Systems Used</div>
+                      <ul class="list-group">
+                        {{#systems}}
+                        <li class="list-group-item">{{{.}}}</li>
+                        {{/systems}}
+                      </ul>
+                      {{/booSystems}}
                       {{#boolHighlights}}
                       <div class="highlights">Highlights</div>
                       <ul class="list-group">

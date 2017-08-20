@@ -188,6 +188,14 @@ blockquote {
   padding: 5px 0;
   font-weight: bold;
 }
+.job .languges {
+  padding: 5px 0;
+  font-weight: bold;
+}
+.job .systems {
+  padding: 5px 0;
+  font-weight: bold;
+}
 .job .job-details {
   padding-left: 5%;
   width: 100%;
