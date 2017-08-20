@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-keloran",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Fork of Kendall with tweaks",
   "main": "index.js",
   "scripts": {
