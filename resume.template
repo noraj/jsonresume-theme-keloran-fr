@@ -78,7 +78,7 @@
                         <li class="list-group-item">{{{.}}}</li>
                         {{/systems}}
                       </ul>
-                      {{/booSystems}}
+                      {{/boolSystems}}
                       {{#boolHighlights}}
                       <div class="highlights">Highlights</div>
                       <ul class="list-group">
