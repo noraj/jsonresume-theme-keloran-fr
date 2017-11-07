@@ -1,12 +1,12 @@
 {
-  "name": "jsonresume-theme-keloran",
+  "name": "jsonresume-theme-keloran-fr",
   "version": "1.0.2",
-  "description": "A Fork of Kendall with tweaks",
+  "description": "A translation of Keloran in french",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Keloran",
+  "author": "Alexandre ZANNI",
   "license": "MIT",
   "dependencies": {
     "gravatar": "^1.0.6",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/keloran/jsonresume-theme-keloran.git"
+    "url": "https://github.com/noraj1337/jsonresume-theme-keloran_fr.git"
   },
   "keywords": [
     "json",
@@ -23,7 +23,7 @@
     "theme"
   ],
   "bugs": {
-    "url": "https://github.com/linuxbozo/jsonresume-theme-keloran/issues"
+    "url": "https://github.com/noraj1337/jsonresume-theme-keloran_fr/issues"
   },
-  "homepage": "https://github.com/linuxbozo/jsonresume-theme-keloran"
+  "homepage": "https://github.com/noraj1337/jsonresume-theme-keloran_fr"
 }

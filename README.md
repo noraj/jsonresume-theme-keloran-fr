@@ -1,20 +1,24 @@
-#jsonresume-theme-keloran
+# keloran_fr
 
-A theme for JSONResume, that relies on Bootstrap and FontAwesome, added with some personal flair.
+**EN**:
 
-This is a fork of Kendall with tweaks
+A theme for [JSONResume][jsonresume], that relies on [Bootstrap][bootstrap] and [FontAwesome][fontawesome], added with some personal flair.
 
-## Usage
+This is a fork of [Keloran][keloran] that is a fork of [Kendall][kendall] with tweaks.
 
-To first get started with this JSONResume theme, you'll need to have the JSONResume CLI installed. If you haven't already install it with `npm install -g resume-cli`. If this doesn't work, try `sudo npm install -g resume-cli`.
+**FR**:
 
-After this, you can get your resume.json ready by typing `resume init`. After hitting enter, your resume will be initialized and you can edit it and fill in the neccessary fields. Check out [the official resume-schema repository](https://github.com/jsonresume/resume-schema) for more information on filling these fields.
+Un thème pour [JSONResume][jsonresume], qui s'appuie sur [Bootstrap][bootstrap] et [FontAwesome][fontawesome], modifié avec une certaine touche personnelle.
 
-When you are finished with your resume, you may test it by yet again opening the command line and typing `resume serve --theme keloran` to see how it looks with this theme.
+C'est un fork de [Keloran][keloran] qui est un fork de [Kendall][kendall] avec des modifications.
+
+## Getting started
 
 ### Install the command line
 
-We're going to use the official [resume-cli](https://github.com/jsonresume/resume-cli) to run our development server.
+Create your resume in json on [jsonresume](https://registry.jsonresume.org)
+
+The official [resume-cli](https://github.com/jsonresume/resume-cli) to run the development server.
 
 Go ahead and install it:
 
@@ -22,22 +26,24 @@ Go ahead and install it:
 sudo npm install -g resume-cli
 ```
 
-### Install npm packages
+### Install and serve theme
 
-We need to install the dependencies. `cd` into the theme folder we just downloaded and run:
-
-```bash
-sudo npm install
-```
-
-This will read the local `package.json` and install the packages listed under `dependencies`.
-
-### Serve theme
-
-While inside the theme folder, simply run:
+This is a theme for JSON Resume. It is available via npm:
 
 ```
-resume serve --theme .
+npm install jsonresume-theme-keloran-fr
+```
+
+then change directory:
+
+```
+cd node_modules/jsonresume-theme-keloran-fr/
+```
+
+And simply run:
+
+```
+resume serve
 ```
 
 You should now see this message:
@@ -48,8 +54,6 @@ Press ctrl-c to stop
 ```
 
 Congratulations, you've made it!
-
-__The theme development can now begin.__
 
 ## Tips
 
@@ -82,3 +86,9 @@ If you want to keep your resume mobile-friendly, please limit the number of prof
 Every section is optional also. If per se, you do not include the publications array in your resume.json, no publications section will appear.
 
 If you find any other problems with this theme in specified, do feel free to leave an issue. Thanks.
+
+[jsonresume]:https://jsonresume.org/
+[fontawesome]:http://fontawesome.io/
+[keloran]:https://github.com/Keloran/jsonresume-theme-keloran
+[kendall]:https://github.com/LinuxBozo/jsonresume-theme-kendall
+[bootstrap]:http://getbootstrap.com/
