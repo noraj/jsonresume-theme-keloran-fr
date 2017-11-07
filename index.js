@@ -9,29 +9,29 @@ var curyear = d.getFullYear();
 function getMonth(startDateStr) {
     switch (startDateStr.substr(5,2)) {
     case '01':
-        return "January ";
+        return "Janvier ";
     case '02':
-        return "February ";
+        return "Février ";
     case '03':
-        return "March ";
+        return "Mars ";
     case '04':
-        return "April ";
+        return "Avril ";
     case '05':
-        return "May ";
+        return "Mai ";
     case '06':
-        return "June ";
+        return "Juin ";
     case '07':
-        return "July ";
+        return "Juillet ";
     case '08':
-        return "August ";
+        return "Août ";
     case '09':
-        return "September ";
+        return "Septembre ";
     case '10':
-        return "October ";
+        return "Octobre ";
     case '11':
-        return "November ";
+        return "Novembre ";
     case '12':
-        return "December ";
+        return "Décembre ";
     }
 }
 
@@ -115,7 +115,7 @@ function render(resumeObject) {
                 w.endDateYear = (w.endDate || "").substr(0,4);
                 w.endDateMonth = getMonth(w.endDate || "");
             } else {
-                w.endDateYear = 'Present'
+                w.endDateYear = "Aujourd'hui"
             }
             if (w.highlights) {
                 if (w.highlights[0]) {
@@ -153,7 +153,7 @@ function render(resumeObject) {
                 w.endDateYear = (w.endDate || "").substr(0,4);
                 w.endDateMonth = getMonth(w.endDate || "");
             } else {
-                w.endDateYear = 'Present'
+                w.endDateYear = "Aujourd'hui"
             }
             if (w.highlights) {
                 if (w.highlights[0]) {
@@ -199,10 +199,10 @@ function render(resumeObject) {
                     e.endDateMonth = getMonth(e.endDate || "")
 
                     if (e.endDateYear > curyear) {
-                        e.endDateYear += " (expected)";
+                        e.endDateYear += " (attendu)";
                     }
                 } else {
-                    e.endDateYear = 'Present'
+                    e.endDateYear = "Aujourd'hui"
                     e.endDateMonth = '';
                 }
                 if (e.courses) {
